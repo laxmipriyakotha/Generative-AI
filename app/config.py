@@ -1,0 +1,3 @@
+# config.py
+GROQ_API_KEY = "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"
+USER_AGENT = "MyColdEmailApp/1.0"
