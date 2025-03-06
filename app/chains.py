@@ -10,7 +10,7 @@ load_dotenv()
 
 class Chain:
     def __init__(self):
-        self.llm = ChatGroq(temperature=0, groq_api_key='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', model_name="llama-3.3-70b-versatile")
+        self.llm = ChatGroq(temperature=0, groq_api_key='gsk_x8*******************', model_name="llama-3.3-70b-versatile")
 
     def extract_jobs(self, cleaned_text):
         prompt_extract = PromptTemplate.from_template(
